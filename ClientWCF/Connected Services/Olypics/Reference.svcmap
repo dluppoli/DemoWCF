@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="e8ff7ddb-fe4f-4afb-b813-b260332f9a34" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52285/Olympics.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Olympics.xsd" MetadataType="Schema" ID="34384c56-8fb1-47b8-97ad-84dccce955e1" SourceId="1" SourceUrl="http://localhost:52285/Olympics.svc?xsd=xsd0" />
+    <MetadataFile FileName="Olympics.wsdl" MetadataType="Wsdl" ID="b259e5f6-e73a-4cb3-b5cf-dad28cc8d42d" SourceId="1" SourceUrl="http://localhost:52285/Olympics.svc?wsdl" />
+    <MetadataFile FileName="Olympics1.xsd" MetadataType="Schema" ID="ce46edef-3ed0-4c73-9b33-e191d5547359" SourceId="1" SourceUrl="http://localhost:52285/Olympics.svc?xsd=xsd2" />
+    <MetadataFile FileName="Olympics.disco" MetadataType="Disco" ID="9f972182-91a8-4fd3-95d1-e6f4d8a67f96" SourceId="1" SourceUrl="http://localhost:52285/Olympics.svc?disco" />
+    <MetadataFile FileName="Olympics2.xsd" MetadataType="Schema" ID="49263c69-9d5e-47f3-b351-e821b719a475" SourceId="1" SourceUrl="http://localhost:52285/Olympics.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
